@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Placeholder</title>
+    <style>
+        body {
+            background-color: blue;
+        }
+        .video-container {
+            position: relative;
+            width: 560px;
+            height: 315px;
+            margin: auto;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .video-container video, .video-container iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KWX8lzzzrzA?si=u4lLNXTYlzXVycah" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
