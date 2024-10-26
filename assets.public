@@ -1,0 +1,11 @@
+my-project/
+│
+├── package.json
+├── server.js
+├── public/      (or you can name it "static", "assets")
+│   ├── index.html
+│   ├── styles.css
+│   ├── script.js
+│   └── images/
+│       ├── logo.png
+│       └── background.jpg
