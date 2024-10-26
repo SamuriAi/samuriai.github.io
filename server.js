@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+app.use(express.static('public')); // or 'static', 'assets'
 
 app.use(express.static('public'));
 
@@ -11,4 +12,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+app.use(express.static('public')); // or 'static', 'assets'
 
