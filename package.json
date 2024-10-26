@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A sample project for GitHub Pages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step defined'",
+    "test": "echo 'No test specified' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "ISC"
+}
