@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Placeholder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        .video-container {
+            background-color: #000;
+            border: 2px solid #333;
+            padding: 10px;
+            margin: 20px auto;
+            max-width: 100%;
+            width: 560px;
+            height: 315px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Project</h1>
+    </header>
+    <main>
+        <div class="video-container">
+            <video controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8JJ101D3knE?si=u4lLNXTYlzXVycah" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
