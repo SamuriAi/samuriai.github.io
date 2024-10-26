@@ -1,11 +1,5 @@
-echo "# samuriai.github.io" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/SamuriAi/samuriai.github.io.git
-git push -u origin main
-# Project Title
+
+# Git Tutorial For Beginners 
 
 Welcome to the project! Below is a YouTube video for reference:
 
