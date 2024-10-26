@@ -12,5 +12,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
-app.use(express.static('public')); // or 'static', 'assets'
+
 
